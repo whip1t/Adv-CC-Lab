@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clickable Background Image</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-image: url('RavePoster2 copy.png'); /* Replace 'your-image.jpg' with the actual image URL or file path */
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+
+    
+  </style>
+
+<body onclick="redirectToNewPage()">
+  <h1></h1>
+
+  <script>
+    function redirectToNewPage() {
+      // Replace 'new-page.html' with the actual URL of the new page
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: url('your-background.gif') center/cover fixed; /* Replace 'your-background.gif' with your GIF file */
+        }
+
+        h1 {
+            color: white; /* Set text color to white for better visibility on the background */
+        }
+
+        audio {
+            width: 100%;
+            max-width: 400px; /* Set a maximum width for better responsiveness */
+        }
+    </style>
+</head>
+<body>
+
+<h1>MP3 Player</h1>
+
+<audio controls>
+    <source src="your-audio-file.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+</audio>
+
+</body>
+</html>

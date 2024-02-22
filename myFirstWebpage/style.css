@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.side-image {
+    background-image: url('pretty.JPG'); /* Replace 'your-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    width: 300px; /* Adjust the width of the side image as needed */
+    height: 100vh; /* Set the height of the side image to full viewport height */
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: -1; /* Place the side image behind the content */
+}
+
+/* Optional: Style your page content as needed */
+
+h1, p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+body, body * {
+    cursor: none !important;
+}
